@@ -1,14 +1,9 @@
 export default function iterateThroughObject(reportWithIterator) {
-  let result = '';
+  const employees = [];
 
-  // Iterate through the iterator
   for (const employee of reportWithIterator) {
-    // Append each employee name followed by '|', except for the last one
-    result += `${employee} | `;
+    employees.push(employee);
   }
 
-  // Remove the last ' | ' from the result
-  result = result.slice(0, -3);
-
-  return result;
+  return employees.join(' | ');
 }
