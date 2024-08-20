@@ -1,0 +1,11 @@
+#ignore all main files & packages 
+""" Do not commit this it's unnessesary :)"
+
+package_lock.json
+0-main.js
+2-main_0.js
+2-main_1.js
+3-main_.js
+3-main_1.js
+
+### These file are t be ignored not committed ###
