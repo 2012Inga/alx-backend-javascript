@@ -6,6 +6,3 @@ node_modules
 2-main_1.js
 3-main_0.js
 3-main_1.js
-.gitignore
-
-# These files , there is no need to commit them git gurdian will panic
